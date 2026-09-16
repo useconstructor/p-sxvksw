@@ -1,0 +1,13 @@
+{
+  "primaryColor": "#F8F6F1",
+  "secondaryColor": "#EFE9DE",
+  "backgroundColor": "#F8F6F1",
+  "textColor": "#2B2B2B",
+  "accentColor": "#C85A17",
+  "fontHeading": "Georgia",
+  "fontBody": "Inter",
+  "borderRadius": "0.5rem",
+  "logoText": "Marisol",
+  "logoImageUrl": "https://vabacntbfcwhgkjqajcw.supabase.co/storage/v1/object/public/screenshots/projects/P-SXVKSW/logo.png",
+  "tone": "energetic"
+}

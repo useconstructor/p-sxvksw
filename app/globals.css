@@ -1,7 +1,14 @@
 @import "tailwindcss";
 
 @theme {
-  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-sans: Inter, ui-sans-serif, system-ui, sans-serif;
+  --font-display: Georgia, "Times New Roman", serif;
+  --color-cream: #F8F6F1;
+  --color-sand: #EFE9DE;
+  --color-orange: #C85A17;
+  --color-charcoal: #2B2B2B;
+  --color-stone: #6F6A63;
+  --color-teal: #1A4D52;
   --font-mono: var(--font-geist-mono), ui-monospace, monospace;
   --color-background: oklch(1 0 0);
   --color-foreground: oklch(0.145 0 0);
@@ -26,8 +33,13 @@
   * {
     border-color: var(--color-border);
   }
-  body {
-    background-color: var(--color-background);
-    color: var(--color-foreground);
-  }
+  html { scroll-behavior: smooth; }
+  body { background:#F8F6F1; color:#2B2B2B; font-family:Inter,ui-sans-serif,system-ui,sans-serif; }
+  button, a, input, textarea, select { outline-color:#C85A17; outline-offset:3px; }
 }
+.paper { background-image:radial-gradient(#c85a1715 1px,transparent 1px); background-size:18px 18px; }
+.clay-art { background:radial-gradient(circle at 51% 50%,#f4c263 0 4%,#d94f22 4.5% 12%,#f0a544 12.5% 18%,#6d2114 18.5% 20%,transparent 20.5%),radial-gradient(circle at 66% 44%,#fff0c8 0 3%,#43805d 3.5% 7%,transparent 7.5%),radial-gradient(circle at 37% 61%,#fff0c8 0 3%,#43805d 3.5% 7%,transparent 7.5%),linear-gradient(135deg,#713c25,#b16b3d 42%,#6b3423); }
+.food-one { background:radial-gradient(circle at 50% 45%,#f4bd4b 0 18%,#c85a17 19% 25%,#2b6a52 26% 29%,transparent 30%),linear-gradient(135deg,#e0a45b,#683823); }
+.food-two { background:radial-gradient(ellipse at 50% 55%,#f2d58b 0 25%,#a2381b 26% 31%,#4f7a43 32% 36%,transparent 37%),linear-gradient(145deg,#35524b,#b57844); }
+.food-three { background:radial-gradient(circle at 48% 48%,#f6ddaa 0 14%,#d06a21 15% 23%,#722a1c 24% 26%,transparent 27%),linear-gradient(125deg,#c47c48,#583126); }
+::selection { background:#C85A17; color:white; }

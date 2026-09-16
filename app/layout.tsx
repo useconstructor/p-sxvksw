@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "App",
-  description: "Built by Constructor",
+  title: "Marisol | Modern Mexican Kitchen",
+  description: "Fresh tacos, burritos, aguas frescas, and Mexican desserts made with heart.",
 };
 
 export default function RootLayout({
@@ -13,7 +13,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es">
-      <body>{children}</body>
+      <body className="antialiased">{children}</body>
     </html>
   );
 }
